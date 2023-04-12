@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * print_tab - Prints an array of string
+ * print_tab - Prints an array of strings
  * @tab: The array to print
  *
- * Return: nothing
+ * Return: void
  */
 void print_tab(char **tab)
 {
@@ -19,15 +19,15 @@ void print_tab(char **tab)
 }
 
 /**
- * main - check the code for ALX School students.
+ * main - Entry point of the program
  *
- * Return: 1 if an error occurred, 0 otherwise
+ * Return: 0 on success, 1 on error
  */
 int main(void)
 {
     char **tab;
 
-    tab = strtow("                ");
+    tab = strtow("      ALX School         #cisfun      ");
     if (tab == NULL)
     {
         printf("Failed\n");
@@ -36,4 +36,5 @@ int main(void)
     print_tab(tab);
     return (0);
 }
+
 
