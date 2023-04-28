@@ -4,7 +4,7 @@
  * add_node - a function that adds a new node at the beginning of a list_t list
  * @head: first element in the list
  * @str: data to be added
- *
+ *hamza elaamili
  * Return: the address of the new element, or NULL if it failed
  * str needs to be duplicated
  */
