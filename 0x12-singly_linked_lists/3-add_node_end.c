@@ -4,7 +4,7 @@
  * add_node_end -  a function that adds a new node at the end of a list_t list.
  * @head: previous element in the list
  * @str: data to be added
- *
+ *hamza elaamili
  * Return: the address of the new element, or NULL if it failed
  * str needs to be duplicated
  */
